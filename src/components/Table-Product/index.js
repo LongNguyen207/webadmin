@@ -67,7 +67,7 @@ class TableProduct extends React.Component {
                                 <td>{product.sl}</td>
                                 <td>{product.price}</td>
                                 <td className="task">
-                                    <Link to="/add-user">
+                                    <Link to="/add-product">
                                         <i className="fa fa-plus" aria-hidden="true"></i>
                                         Thêm
                                         </Link>
