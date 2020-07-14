@@ -1,0 +1,22 @@
+.menu-nav-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+    .menu-nav {
+        list-style-type: none;
+        .nav-item {
+            border-bottom: 1px solid $border-color;    
+            padding: 10px 10px;        
+            a {
+                text-decoration: none;
+                color: $black-color;
+                i {
+                    margin-right: 5px;
+                }
+                &:hover {
+                    color:  #66ccff;
+                }
+            }
+        }
+    }
+}

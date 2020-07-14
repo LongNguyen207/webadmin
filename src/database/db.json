@@ -1,0 +1,397 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Áo Phông",
+      "size": "XL",
+      "sl": 100,
+      "price": "250.000 đ"
+    },
+    {
+      "id": 2,
+      "title": "Áo Khoác",
+      "size": "L",
+      "sl": 100,
+      "price": "250.000 đ"
+    },
+    {
+      "id": 3,
+      "title": "Quần Jean",
+      "size": "X",
+      "sl": 100,
+      "price": "250.000 đ"
+    },
+    {
+      "id": 4,
+      "title": "Sơ Mi",
+      "size": "XL",
+      "sl": 100,
+      "price": "250.000 đ"
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "1",
+      "price": "350.000 đ",
+      "id": 5
+    },
+    {
+      "title": "Áo Dạ",
+      "size": "XL",
+      "sl": "20",
+      "price": "750.000 đ",
+      "id": 6
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "20",
+      "price": "350.000 đ",
+      "id": 7
+    },
+    {
+      "title": "Áo len",
+      "size": "M",
+      "sl": "20",
+      "price": "350.000 đ",
+      "id": 8
+    },
+    {
+      "title": "Áo len",
+      "size": "S",
+      "sl": "20",
+      "price": "350.000 đ",
+      "id": 9
+    },
+    {
+      "title": "Áo len",
+      "size": "L",
+      "sl": "20",
+      "price": "350.000 đ",
+      "id": 10
+    },
+    {
+      "title": "Áo Bò",
+      "size": "L",
+      "sl": "20",
+      "price": "350.000 đ",
+      "id": 11
+    },
+    {
+      "title": "Áo Bò",
+      "size": "X",
+      "sl": "20",
+      "price": "350.000 đ",
+      "id": 12
+    },
+    {
+      "title": "Áo Bò",
+      "size": "XL",
+      "sl": "20",
+      "price": "350.000 đ",
+      "id": 13
+    },
+    {
+      "title": "Áo Bò",
+      "size": "M",
+      "sl": "20",
+      "price": "350.000 đ",
+      "id": 14
+    },
+    {
+      "title": "Áo Bò",
+      "size": "S",
+      "sl": "20",
+      "price": "350.000 đ",
+      "id": 15
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "1",
+      "price": "350.000 đ",
+      "id": 16
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "1",
+      "price": "350.000 đ",
+      "id": 17
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "1",
+      "price": "1.000.000 đ",
+      "id": 18
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "1",
+      "price": "1",
+      "id": 19
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "1",
+      "price": "350.000 đ",
+      "id": 20
+    },
+    {
+      "title": "Áo len",
+      "size": "1",
+      "sl": "1",
+      "price": "1",
+      "id": 21
+    },
+    {
+      "title": "ccc",
+      "size": "ccc",
+      "sl": "cc",
+      "price": "1111",
+      "id": 22
+    },
+    {
+      "title": "Áo len",
+      "size": "111",
+      "sl": "1111",
+      "price": "11111111111",
+      "id": 23
+    },
+    {
+      "title": "aaa",
+      "size": "111111111111111111",
+      "sl": "11111111111111111",
+      "price": "1111111111111",
+      "id": 24
+    },
+    {
+      "title": "Áo len",
+      "size": "12",
+      "sl": "12",
+      "price": "12",
+      "id": 25
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "1",
+      "price": "350.000 đ",
+      "id": 26
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "1",
+      "price": "350.000 đ",
+      "id": 27
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "1",
+      "price": "350.000 đ",
+      "id": 28
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "1",
+      "price": "350.000 đ",
+      "id": 29
+    },
+    {
+      "title": "Áo Da",
+      "id": 30
+    },
+    {
+      "title": "Áo len",
+      "size": "",
+      "sl": "",
+      "price": "",
+      "id": 31
+    },
+    {
+      "title": "Áo Phông",
+      "size": "XL",
+      "sl": "",
+      "price": "",
+      "id": 32
+    },
+    {
+      "title": "Áo len",
+      "size": "",
+      "sl": "",
+      "price": "350.000 đ",
+      "id": 33
+    },
+    {
+      "title": "Áo len",
+      "size": "",
+      "sl": "",
+      "price": "350.000 đ",
+      "id": 34
+    },
+    {
+      "title": "Áo len",
+      "size": "",
+      "sl": "",
+      "price": "",
+      "id": 35
+    },
+    {
+      "title": "Áo Da",
+      "size": "",
+      "sl": "",
+      "price": "",
+      "id": 36
+    },
+    {
+      "title": "Áo Da",
+      "size": "XL",
+      "sl": "",
+      "price": "",
+      "id": 37
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "",
+      "price": "",
+      "id": 38
+    },
+    {
+      "title": "Áo len",
+      "size": "XL",
+      "sl": "1",
+      "price": "350.000 đ",
+      "id": 39
+    },
+    {
+      "title": "Áo Da",
+      "size": "",
+      "sl": "",
+      "price": "",
+      "id": 40
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Mr David Moyes",
+      "age": 48,
+      "national": "Ba Lan",
+      "adress": "Manchester"
+    },
+    {
+      "id": 2,
+      "name": "Sir Alex Ferguson",
+      "age": 78,
+      "national": "Séc",
+      "adress": "Manchester"
+    },
+    {
+      "name": "Ronaldo",
+      "age": "30",
+      "national": "Portugal",
+      "adress": "Turin",
+      "id": 3
+    },
+    {
+      "name": "Leroy Sane",
+      "age": "24",
+      "national": "Germany",
+      "adress": "Bayern Munich",
+      "id": 4
+    },
+    {
+      "name": "Jerome Boogteg",
+      "age": "27",
+      "national": "Germany",
+      "adress": "Bayern Munich",
+      "id": 5
+    },
+    {
+      "name": "Erling Haaland",
+      "age": "20",
+      "national": "Czech",
+      "adress": "Dortmund",
+      "id": 6
+    },
+    {
+      "name": "Xavi Heznandez",
+      "age": "36",
+      "national": "ESP",
+      "adress": "Quatar",
+      "id": 7
+    },
+    {
+      "name": "Andress Iniesta",
+      "age": "36",
+      "national": "ESP",
+      "adress": "Catononia",
+      "id": 8
+    },
+    {
+      "name": "Joao Flex",
+      "age": "22",
+      "national": "Portugal",
+      "adress": "Marid",
+      "id": 9
+    },
+    {
+      "name": "James Jodiguez",
+      "age": "28",
+      "national": "Costa Rica",
+      "adress": "Marid",
+      "id": 10
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "name": "Điện thoại",
+      "sl": "50",
+      "madeby": "Mỹ",
+      "status": "Đang Oder"
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "sl": "500",
+      "madeby": "Mỹ",
+      "status": "Đang Oder"
+    },
+    {
+      "name": "PC",
+      "sl": "200",
+      "madeby": "Mỹ",
+      "status": "Đang Order",
+      "id": 3
+    },
+    {
+      "name": "Chuột",
+      "sl": "1000",
+      "madeby": "Trung Quốc",
+      "status": "Có Sẵn",
+      "id": 4
+    },
+    {
+      "name": "Bàn Phím",
+      "sl": "1000",
+      "madeby": "Trung Quốc",
+      "status": "Đang Order",
+      "id": 5
+    },
+    {
+      "name": "Dây mạng",
+      "sl": "10000",
+      "madeby": "Hàn Quốc",
+      "status": "Đang Order",
+      "id": 6
+    }
+  ]
+}
