@@ -306,99 +306,64 @@
       "national": "Portugal",
       "adress": "Marid",
       "id": 9
+    },
+    {
+      "name": "Robert Lewandowski",
+      "age": "30",
+      "national": "Ba Lan",
+      "adress": "Bayern Munich",
+      "id": 10
     }
   ],
   "orders": [
     {
       "id": 1,
       "name": "Điện thoại",
-      "sl": "50",
       "madeby": "Mỹ",
+      "sl": "50",
       "status": "Đang Oder"
     },
     {
       "id": 2,
       "name": "Laptop",
-      "sl": "500",
       "madeby": "Mỹ",
+      "sl": "500",
       "status": "Đang Oder"
     },
     {
       "name": "PC",
-      "sl": "200",
       "madeby": "Mỹ",
+      "sl": "200",
       "status": "Đang Order",
       "id": 3
     },
     {
       "name": "Chuột",
+      "madeby": "Mỹ",
       "sl": "1000",
-      "madeby": "Trung Quốc",
       "status": "Có Sẵn",
       "id": 4
     },
     {
       "name": "Bàn Phím",
-      "sl": "1000",
       "madeby": "Trung Quốc",
+      "sl": "1000",
       "status": "Đang Order",
       "id": 5
     },
     {
       "name": "Dây mạng",
+      "madeby": "Trung Quốc",
       "sl": "10000",
-      "madeby": "Hàn Quốc",
       "status": "Đang Order",
       "id": 6
     },
     {
       "name": "Bimbim Que",
+      "madeby": "Trung Quốc",
       "sl": "10000",
-      "madeby": "Việt Nam",
       "status": "Có Sẵn",
       "id": 7
-    },
-    {
-      "name": "",
-      "sl": "",
-      "madeby": "",
-      "status": "",
-      "id": 8
-    },
-    {
-      "name": "",
-      "sl": "",
-      "madeby": "",
-      "status": "",
-      "id": 9
-    },
-    {
-      "name": "",
-      "sl": "",
-      "madeby": "",
-      "status": "",
-      "id": 10
-    },
-    {
-      "name": "Áo len",
-      "sl": "XL",
-      "madeby": "1",
-      "status": "350.000 đ",
-      "id": 11
-    },
-    {
-      "name": "Áo Bò",
-      "sl": "L",
-      "madeby": "20",
-      "status": "350.000 đ",
-      "id": 12
-    },
-    {
-      "name": "Áo Bò",
-      "sl": "L",
-      "madeby": "20",
-      "status": "350.000 đ",
-      "id": 13
     }
   ]
 }

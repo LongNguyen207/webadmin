@@ -53,8 +53,8 @@ class TableOrder extends React.Component {
                         <tr>
                             <th>ID</th>
                             <th>Tên mặt hàng</th>
-                            <th>Số lượng</th>
                             <th>Nơi sản xuất</th>
+                            <th>Số lượng</th>
                             <th>Trạng thái</th>
                             <th>Tác vụ</th>
                         </tr>
@@ -63,8 +63,8 @@ class TableOrder extends React.Component {
                             return <tr key={order.id}>
                                 <td>{order.id}</td>
                                 <td>{order.name}</td>
-                                <td>{order.sl}</td>
                                 <td>{order.madeby}</td>
+                                <td>{order.sl}</td>
                                 <td>{order.status}</td>
                                 <td className="task">
                                     <Link to="/add-order">
