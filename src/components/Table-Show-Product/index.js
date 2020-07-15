@@ -7,18 +7,26 @@ class TableShowProduct extends React.Component {
         super(props);
         this.state = {
             products: [],
-            keyword: ''
+            keyword: '',
+            id: ''
         }
     }
+    onClick = (e) => {
+        this.setState({
+            id: e
+        })
+    }
 
+    onClickAdd = () => {
+        this.props.onClickAdd(this.state.id)
+    }
     onSearch = (keyword) => {
         this.setState({
             keyword: keyword
-        })
+        });
     }
     componentDidMount() {
         handleAPIsProducts('GET', null, []).then(data => {
-            console.log(data.data);
             this.setState(
                 { products: data.data }
             )
@@ -30,7 +38,6 @@ class TableShowProduct extends React.Component {
         var dataFilter = a.filter(function (a) {
             return a.title === keyword;
         })
-        console.log(dataFilter)
         return (
             <div className="search-container">
                 <div className="search">
@@ -55,10 +62,18 @@ class TableShowProduct extends React.Component {
                                     <td>{filter.sl}</td>
                                     <td>{filter.price}</td>
                                     <td>
-                                        <a href="add" className="add-cart">
+                                        <button
+                                            onClick={() => this.onClick(filter.id)}
+                                            className="add-cart">
                                             <i className="fa fa-cart-plus" aria-hidden="true"></i>
+                                        Chọn
+                                        </button>
+                                        <button
+                                            onClick={this.onClickAdd}
+                                            className="add-cart">
+                                            <i className="fa fa-plus" aria-hidden="true"></i>
                                         Thêm
-                                        </a>
+                                        </button>
                                     </td>
                                 </tr>
                             })}

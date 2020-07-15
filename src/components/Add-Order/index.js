@@ -1,5 +1,6 @@
 import React from 'react';
 import handleAPIsOrders from '../../apis/apiOrders';
+import handleAPIsProducts from '../../apis/apiProducts';
 import TableShowProduct from './../Table-Show-Product/index';
 
 class AddOrder extends React.Component {
@@ -11,7 +12,8 @@ class AddOrder extends React.Component {
             txtSL: '',
             txtMadeBy: '',
             txtStatus: '',
-            keyword: ''
+            keyword: '',
+            add: []
         }
     }
 
@@ -21,7 +23,6 @@ class AddOrder extends React.Component {
             var id = match.params.id;
             console.log(id);
             handleAPIsOrders('GET', '', (id)).then(data => {
-                console.log(data.data);
                 var datas = data.data;
                 this.setState({
                     id: datas.id,
@@ -35,6 +36,20 @@ class AddOrder extends React.Component {
         }
     }
 
+    onClickAdd = (id) => {
+        console.log(id);
+         handleAPIsProducts('GET', '', (id)).then(data => {
+                this.setState({
+                    add : data.data
+                })
+                console.log(this.state.add);
+                var {add} = this.state;
+                handleAPIsOrders('POST', { name:add.title , sl: add.size, madeby: add.sl, status: add.price }, "").then(data => {
+                    console.log(data.data);
+                })
+            })
+
+    }
     onClick = (e) => {
         window.history.go(-1);
     }
@@ -62,7 +77,7 @@ class AddOrder extends React.Component {
         }
     }
     render() {
-        var { txtName, txtSL, txtMadeBy, txtStatus } = this.state;
+        var { txtName, txtSL, txtMadeBy, txtStatus} = this.state;
         return (
             <div className="add-order-container">
                 <form onSubmit={this.onSave}>
@@ -115,7 +130,7 @@ class AddOrder extends React.Component {
                         <button onClick={(e) => this.onClick()} type="submit" className="btn btn-save-order" >Lưu</button>
                     </div>
                 </form>
-                <TableShowProduct />
+                <TableShowProduct onClickAdd={this.onClickAdd}/>
             </div>
         );
     }
