@@ -7,7 +7,7 @@ class MenuNav extends React.Component {
             <div className="menu-nav-container">
                 <ul className="menu-nav">
                     <li className="nav-item">
-                        <Link to="/">
+                        <Link to="/admin">
                             <i className="fa fa-home" aria-hidden="true"></i>
                         Trang chủ Admin
                         </Link>

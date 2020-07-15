@@ -23,6 +23,9 @@ class Home extends React.Component {
                         <Route exact path="/">
                             <BannerHome image="https://www.uptoyou-eg.com/images/welcome.png" />
                         </Route>
+                        <Route path="/admin">
+                            <BannerHome image="https://st.quantrimang.com/photos/image/2019/06/24/admin-1.jpg" />
+                        </Route>
                         <Route path="/product">
                             <TableProduct />
                         </Route>

@@ -64,7 +64,7 @@ class AddProduct extends React.Component {
         return (
             <div className="add-product-container">
                 <form onSubmit={this.onSave}>
-                    <h1>Thêm sản phẩm</h1>
+                    <h1>Thêm Sản Phẩm</h1>
                     <div className="title-product">
                         <h3>Tên sản phẩm</h3>
                         <label>

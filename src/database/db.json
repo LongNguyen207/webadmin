@@ -248,34 +248,6 @@
       "sl": "",
       "price": "",
       "id": 36
-    },
-    {
-      "title": "Áo Da",
-      "size": "XL",
-      "sl": "",
-      "price": "",
-      "id": 37
-    },
-    {
-      "title": "Áo len",
-      "size": "XL",
-      "sl": "",
-      "price": "",
-      "id": 38
-    },
-    {
-      "title": "Áo len",
-      "size": "XL",
-      "sl": "1",
-      "price": "350.000 đ",
-      "id": 39
-    },
-    {
-      "title": "Áo Da",
-      "size": "",
-      "sl": "",
-      "price": "",
-      "id": 40
     }
   ],
   "users": [
@@ -341,13 +313,6 @@
       "national": "Portugal",
       "adress": "Marid",
       "id": 9
-    },
-    {
-      "name": "James Jodiguez",
-      "age": "28",
-      "national": "Costa Rica",
-      "adress": "Marid",
-      "id": 10
     }
   ],
   "orders": [
@@ -392,41 +357,6 @@
       "madeby": "Hàn Quốc",
       "status": "Đang Order",
       "id": 6
-    },
-    {
-      "name": "Vỏ Case",
-      "sl": "500",
-      "madeby": "Trung Quốc",
-      "status": "Chưa có sẵn",
-      "id": 7
-    },
-    {
-      "name": "Lót chuột",
-      "sl": "10000",
-      "madeby": "Trung Quốc",
-      "status": "Có sẵn",
-      "id": 8
-    },
-    {
-      "name": "Ghế Gaming",
-      "sl": "100",
-      "madeby": "Hàn Quốc",
-      "status": "Đang Order",
-      "id": 9
-    },
-    {
-      "name": "Quạt Tản Nhiệt",
-      "sl": "100",
-      "madeby": "Mỹ",
-      "status": "Có sẵn",
-      "id": 10
-    },
-    {
-      "name": "Quần Áo",
-      "sl": "10",
-      "madeby": "Việt Nam",
-      "status": "Đang Order",
-      "id": 11
     }
   ]
 }

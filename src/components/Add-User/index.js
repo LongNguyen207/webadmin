@@ -66,7 +66,7 @@ class AddUser extends React.Component {
                 <form onSubmit={this.onSave}>
                     <h1>Thêm khách hàng</h1>
                     <div className="title-user">
-                        <h3>Tên khách hàng</h3>
+                        <h3>Tên Khách Hàng</h3>
                         <label>
                             <input type="text"
                                 className="input input-add-user"

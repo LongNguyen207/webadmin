@@ -3,11 +3,15 @@
     display: flex;
     padding: 10px 0px;
     border-bottom: 1px solid $border-color;
+    background-color:#4dc3ff
+    ;
     .menu {
         display: flex;
         a {
             text-decoration: none;
-            color: $black-color;
+            color:#e6e6e6
+            ;
+            font-size: 18px;
         }
         i {
             margin: 0px 5px;

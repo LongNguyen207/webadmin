@@ -1,5 +1,6 @@
 import React from 'react';
 import handleAPIsOrders from '../../apis/apiOrders';
+import TableShowProduct from './../Table-Show-Product/index';
 
 class AddOrder extends React.Component {
     constructor(props) {
@@ -9,7 +10,8 @@ class AddOrder extends React.Component {
             txtName: '',
             txtSL: '',
             txtMadeBy: '',
-            txtStatus: ''
+            txtStatus: '',
+            keyword: ''
         }
     }
 
@@ -50,11 +52,11 @@ class AddOrder extends React.Component {
         e.preventDefault();
         var { id, txtName, txtSL, txtMadeBy, txtStatus } = this.state;
         if (id) {
-            handleAPIsOrders('PUT',{ name: txtName, sl: txtSL, madeby: txtMadeBy, status: txtStatus },id).then(data => {
+            handleAPIsOrders('PUT', { name: txtName, sl: txtSL, madeby: txtMadeBy, status: txtStatus }, id).then(data => {
                 console.log(data.data);
             })
         } else {
-            handleAPIsOrders('POST', { name: txtName, sl: txtSL, madeby: txtMadeBy, status: txtStatus}, "").then(data => {
+            handleAPIsOrders('POST', { name: txtName, sl: txtSL, madeby: txtMadeBy, status: txtStatus }, "").then(data => {
                 console.log(data.data);
             })
         }
@@ -64,7 +66,7 @@ class AddOrder extends React.Component {
         return (
             <div className="add-order-container">
                 <form onSubmit={this.onSave}>
-                    <h1>Thêm mặt hàng</h1>
+                    <h1>Thêm Mặt Hàng</h1>
                     <div className="title-order">
                         <h3>Tên mặt hàng</h3>
                         <label>
@@ -113,6 +115,7 @@ class AddOrder extends React.Component {
                         <button onClick={(e) => this.onClick()} type="submit" className="btn btn-save-order" >Lưu</button>
                     </div>
                 </form>
+                <TableShowProduct />
             </div>
         );
     }

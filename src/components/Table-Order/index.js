@@ -30,7 +30,7 @@ class TableOrder extends React.Component {
     }
     findIndex = (orders, id) => {
         var result = -1;
-        orders.forEach((order, index) => {
+        orders.forEach((orders, index) => {
             if (orders.id === id) {
                 result = index;
             }
