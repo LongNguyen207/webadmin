@@ -364,6 +364,55 @@
       "sl": "10000",
       "status": "Có Sẵn",
       "id": 7
+    },
+    {
+      "name": "Áo len",
+      "sl": "XL",
+      "madeby": "1",
+      "status": "350.000 đ",
+      "id": 9
+    },
+    {
+      "name": "Áo Bò",
+      "sl": "S",
+      "madeby": "20",
+      "status": "350.000 đ",
+      "id": 10
+    },
+    {
+      "name": "Quần Jean",
+      "sl": "X",
+      "madeby": 100,
+      "status": "250.000 đ",
+      "id": 11
+    },
+    {
+      "name": "Áo Dạ",
+      "sl": "XL",
+      "madeby": "20",
+      "status": "750.000 đ",
+      "id": 12
+    },
+    {
+      "name": "Áo Bò",
+      "sl": "20",
+      "madeby": "L",
+      "status": "350.000 đ",
+      "id": 13
+    },
+    {
+      "name": "Áo Bò",
+      "sl": "20",
+      "madeby": "L",
+      "status": "350.000 đ",
+      "id": 14
+    },
+    {
+      "name": "Áo Bò",
+      "sl": "20",
+      "madeby": "X",
+      "status": "350.000 đ",
+      "id": 15
     }
   ]
 }

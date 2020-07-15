@@ -44,7 +44,7 @@ class AddOrder extends React.Component {
                 })
                 console.log(this.state.add);
                 var {add} = this.state;
-                handleAPIsOrders('POST', { name:add.title , sl: add.size, madeby: add.sl, status: add.price }, "").then(data => {
+                handleAPIsOrders('POST', { name:add.title , sl: add.sl, madeby: add.size, status: add.price }, "").then(data => {
                     console.log(data.data);
                 })
             })
