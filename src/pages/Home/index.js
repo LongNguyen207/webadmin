@@ -24,7 +24,7 @@ class Home extends React.Component {
                             <BannerHome image="https://www.uptoyou-eg.com/images/welcome.png" />
                         </Route>
                         <Route path="/admin">
-                            <BannerHome image="https://st.quantrimang.com/photos/image/2019/06/24/admin-1.jpg" />
+                            <BannerHome image="https://i.ytimg.com/vi/1WkrxP-K_Xs/maxresdefault.jpg" />
                         </Route>
                         <Route path="/product">
                             <TableProduct />

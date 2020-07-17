@@ -60,7 +60,7 @@ class TableShowProduct extends React.Component {
                                     <td>{filter.title}</td>
                                     <td>{filter.size}</td>
                                     <td>{filter.sl}</td>
-                                    <td>{filter.price}</td>
+                                    <td>{filter.price} đ</td>
                                     <td>
                                         <button
                                             onClick={() => this.onClick(filter.id)}
